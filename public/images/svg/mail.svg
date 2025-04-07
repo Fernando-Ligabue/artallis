@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.58 11.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1" data-name="Camada 1">
+    <g id="Mail_2_Filled" data-name="Mail 2 Filled">
+      <path class="cls-1" d="m15.09.99l-4.83,4.19,4.94,4.87c.24-.38.38-.82.38-1.29V2.43c0-.54-.18-1.04-.48-1.44Z"/>
+      <path class="cls-1" d="m14.36.34c-.36-.21-.77-.34-1.22-.34H2.43c-.49,0-.94.15-1.32.4l6.55,5.75L14.36.34Z"/>
+      <path class="cls-1" d="m7.98,7.16c-.09.08-.21.12-.32.12s-.23-.04-.32-.12l-1.39-1.22L1.09,10.79c.38.26.84.41,1.34.41h10.71c.51,0,.99-.16,1.38-.44l-5-4.93-1.54,1.34Z"/>
+      <path class="cls-1" d="m.41,1.08c-.26.39-.41.85-.41,1.35v6.33c0,.49.15.95.41,1.34l4.81-4.81L.41,1.08Z"/>
+    </g>
+  </g>
+</svg>
