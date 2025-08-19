@@ -18,7 +18,7 @@ const SliderImages = ({ images }) => {
                         <img
                             src={imageObj.img}
                             alt={`Imagem ${index + 1}`}
-                            className="rounded-md object-cover w-full h-64"
+                            className="rounded-md object-cover w-full h-64 border border-artLightBlue-50"
                         />
                     </CarouselItem>
                 ))}

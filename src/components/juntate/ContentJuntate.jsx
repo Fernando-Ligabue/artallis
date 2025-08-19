@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import SliderImages from '../SliderImages';
-import { Link } from 'react-router-dom';
 import { gallerySlideImages, juntateSections } from '@/lib/constants';
+import ButtonApply from '../ButtonApply';
 
 const ContentJuntate = () => {
     const [isActive, setIsActive] = useState(1);
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     const handleSelect = (id) => {
         setIsActive(id);
@@ -32,15 +33,22 @@ const ContentJuntate = () => {
                             {juntateSections[isActive - 1].description.map((e, index) => (
                                 <p className="font-medium font-barlow text-base text-justify" key={index}>{e}</p>
                             ))}
-                            <Link to="" className="rounded-full px-10 py-3 bg-artYellow-50 hover:bg-artYellow-50 hover:shadow-md text-black font-barlow font-semibold text-md transition-all ease-in-out duration-300">Quero fazer parte!</Link>
+                            <div className={`transition-opacity duration-300`}>
+                                <ButtonApply
+                                    isPopupOpen={isPopupOpen}
+                                    setIsPopupOpen={setIsPopupOpen}
+                                />
+                            </div>
                         </div>
                     )}
                 </div>
-                {isActive !== 1 && <SliderImages images={gallerySlideImages}/>}
+
+                {!isPopupOpen && isActive !== 1 && (
+                    <SliderImages images={gallerySlideImages} />
+                )}
             </div>
         </div>
+    );
+};
 
-    )
-}
-
-export default ContentJuntate
+export default ContentJuntate;

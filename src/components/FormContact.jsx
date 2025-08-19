@@ -59,7 +59,7 @@ const FormContact = ({ onFormSubmitSuccess }) => {
                 return;
             }
 
-            await axios.post("https://sender-artallis.vercel.app/send_email", {
+            await axios.post("https://sender2.vercel.app/send_email", {
                 name: formData.name,
                 email: formData.email,
                 phone: formData.phone,

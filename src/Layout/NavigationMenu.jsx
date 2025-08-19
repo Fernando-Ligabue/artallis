@@ -101,10 +101,10 @@ export function NavigationMenu() {
         <>
           <button
             onClick={toggleMenu}
-            className="absolute top-[-2rem] right-1 z-50 p-2 text-black dark:text-white"
+            className="absolute top-[-2rem] right-1 p-2 text-black dark:text-white"
             aria-label={isOpen ? "Close menu" : "Open menu"}
           >
-            {isOpen ? <X size={28} className="text-white"/> : <Menu size={28} className={textColor} />}
+            {isOpen ? <X size={28} className="text-white absolute top-[0.5rem] right-1 z-50"/> : <Menu size={28} className={textColor} />}
           </button>
           
           <div

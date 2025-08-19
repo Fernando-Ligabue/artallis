@@ -54,13 +54,13 @@ const ContentArtallisEmpalco = () => {
                     {/* Modal para telas maiores (min 469px) */}
                     {openModal && selectedArea === area && !isMobile && (
                         <div className="absolute inset-0 w-full h-full min-h-80 flex flex-col justify-center items-center bg-white shadow-sm shadow-artDarkBlue-50/50 rounded-md p-4">
-                            <div className="relative w-full text-center">
+                            <div className="relative w-full text-center space-y-4">
                                 <p className='text-sm sm:text-md text-center select-none'>{selectedArea.description}</p>
                                 <span
                                     onClick={handleCloseModal}
                                     className='text-artDarkBlue-50 cursor-pointer w-full flex-center'
                                 >
-                                    <ArrowLeft size={24} />
+                                    <ArrowLeft size={24} /> Voltar
                                 </span>
                             </div>
                         </div>

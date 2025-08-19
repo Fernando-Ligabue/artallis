@@ -14,7 +14,7 @@ const ContentAprende = () => {
 
     return (
         <div className="relative w-full flex flex-col gap-16 py-20">
-            <div className="flex flex-col sm:flex-row items-start justify-between w-full gap-8 sm:gap-32">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start justify-between w-full gap-8 sm:gap-32">
                 <div className="w-max flex flex-col">
                     {learnSections.map((section) => (
                         <div
@@ -32,7 +32,7 @@ const ContentAprende = () => {
                 </div>
                 <div className="w-full max-w-4xl">
                     <img
-                        className="w-full bg-cover bg-center bg-no-repeat object-cover rounded-lg h-full max-h-96"
+                        className="w-full bg-cover bg-center bg-no-repeat object-cover rounded-lg h-full min-h-72 max-h-96"
                         src={isActive === 0 ? "" : learnSections[isActive - 1].img}
                     />
                 </div>

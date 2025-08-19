@@ -100,16 +100,19 @@ export const historyTextInfo4 = "Esperamos recebê-los em breve na nossa institu
 
 // mission assets
 export const misisonText = "No Conservatório Artallis, a nossa missão é inspirar, envolver e educar para um mundo, através da arte. Acreditamos que a arte é uma linguagem universal, capaz de ligar pessoas, culturas e ideias. Comprometemo-nos a proporcionar um espaço onde a criatividade e a expressão artística possam florescer, permitindo que cada aluno descubra e desenvolva o seu talento único. Através de um ensino dedicado e de experiências enriquecedoras, procuramos transformar vidas e contribuir para a construção de um mundo mais sensível, consciente e harmonioso."
-
+export const missionImg = './images/mission/mission.webp'
 // organization structure assets
 export const organization = './images/various/org-structure.webp'
 
 //  equipa artallis assets
 export const andremarcal = './images/equipaArtallis/andremarcal.webp'
 export const angelacanudo = './images/equipaArtallis/angelacanudo.webp'
+export const adrianasousa = './images/equipaArtallis/adrianasousa.webp'
 export const barbarahenriques = './images/equipaArtallis/barbarahenriques.webp'
 export const carloslopes = './images/equipaArtallis/carloslopes.webp'
+export const carlotaferreira = './images/equipaArtallis/carlotaferreira.webp'
 export const catiasilva = './images/equipaArtallis/catiasilva.webp'
+export const catarinamartins = './images/equipaArtallis/catarinamartins.webp'
 export const danielavicente = './images/equipaArtallis/danielavicente.webp'
 export const davidribeiro = './images/equipaArtallis/davidribeiro.webp'
 export const eduardosousa = './images/equipaArtallis/eduardosousa.webp'
@@ -124,11 +127,16 @@ export const hudsonditherman = './images/equipaArtallis/hudsonditherman.webp'
 export const hugoportela = './images/equipaArtallis/hugoportela.webp'
 export const isaacfernandes = './images/equipaArtallis/isaacfernandes.webp'
 export const joaocorreia = './images/equipaArtallis/joaocorreia.webp'
+export const joaopereira = './images/equipaArtallis/joaopereira.webp'
 export const julianamarin = './images/equipaArtallis/julianamarin.webp'
+export const laurasantos = './images/equipaArtallis/laurasantos.webp'
 export const leonorpaiva = './images/equipaArtallis/leonorpaiva.webp'
+export const leticiarobalo = './images/equipaArtallis/leticiarobalo.webp'
+export const mariabeira = './images/equipaArtallis/mariabeira.webp'
 export const mariasantos = './images/equipaArtallis/mariasantos.webp'
 export const marianav = './images/equipaArtallis/marianav.webp'
 export const miguelfernandes = './images/equipaArtallis/miguelfernandes.webp'
+export const patricialopes = './images/equipaArtallis/patricialopes.webp'
 export const pedrogalego = './images/equipaArtallis/pedrogalego.webp'
 export const pedrooliveira = './images/equipaArtallis/pedrooliveira.webp'
 export const pedroserra = './images/equipaArtallis/pedroserra.webp'
@@ -137,6 +145,7 @@ export const ricardocarvalho = './images/equipaArtallis/ricardocarvalho.webp'
 export const ricardotorres = './images/equipaArtallis/ricardotorres.webp'
 export const rossanasilva = './images/equipaArtallis/rossanasilva.webp'
 export const saraantunes = './images/equipaArtallis/saraantunes.webp'
+export const tiagoloureiro = './images/equipaArtallis/tiagoloureiro.webp'
 export const walacedurao = './images/equipaArtallis/walacedurao.webp'
 
 export const equipaArtallis = [
@@ -144,7 +153,7 @@ export const equipaArtallis = [
     id: 1,
     name: "André Marçal",
     photo: andremarcal,
-    position: "Professor de Trompete",
+    positions: ["Professor de Trompete",],
     description: [
       "Nascido e criado na bela vila Alentejana de Aljustrel, o nosso André traduz de forma exemplar os seus costumes e mantém um sotaque que lhe é tão característico.",
       "Iniciou os seus estudos musicais na S.M.I.R.A aos 8 anos, ingressando posteriormente no Conservatório Regional do Baixo Alentejo. Atualmente é Professor de piano mestre em performance e em Ensino da Música, na vertente de Trompete.",
@@ -156,7 +165,7 @@ export const equipaArtallis = [
     id: 2,
     name: "Ângela Canudo",
     photo: angelacanudo,
-    position: "Professora de Clarinete",
+    positions: ["Professora de Clarinete", "Professora de Formação Musical", "Professora de Classes de Conjunto"],
     description: [
       "Natural de Lisboa, a Ângela reside atualmente em Vialonga. É antiga aluna da Classe de Clarinetes do Conservatório Artallis, e desde os seus 10 aninhos entregou-se de corpo e alma a esta linda família.",
       "Findado o seu percurso académico na nossa escola, lançou-se a novos desafios, e atualmente é licenciada em Clarinete e mestranda em Ensino da Música.",
@@ -165,9 +174,18 @@ export const equipaArtallis = [
   },
   {
     id: 3,
+    name: "Adriana Sousa",
+    photo: adrianasousa,
+    positions: ["Professora de Clarinete",],
+    description: [
+      "Natural da vibrante capital do Minho, Braga, a nossa Adriana Sousa carrega consigo a determinação e o encanto típicos da sua terra.", "Iniciou os seus estudos musicais aos 6 anos, no Conservatório de Música Calouste Gulbenkian de Braga, tendo prosseguido o seu percurso na Escola Superior de Música de Lisboa, onde se licenciou e concluiu o mestrado em Ensino da Música.", "Clarinete sempre em mãos e alma cheia de música, integra os quadros permanentes da Banda da Armada desde 2019, afirmando-se como uma profissional de excelência. Em 2022, abraçou um novo desafio ao entrar para a grande família Artallis, onde tem deixado a sua marca com dedicação, talento e boa disposição.", "Com um sorriso tranquilo e uma presença cativante, a Adriana espalha simpatia e profissionalismo por onde passa, tornando cada momento mais harmonioso."
+    ],
+  },
+  {
+    id: 4,
     name: "Bárbara Henriques",
     photo: barbarahenriques,
-    position: "Professora de Dança",
+    positions: ["Professora de Dança",],
     description: [
       "Bárbara Henriques, bailarina e professora de dança, nascida e criada em Sintra, com uma importante passagem em São Miguel (Açores), onde começou a dançar e aprendeu o que é a dança.",
       "Estudou na Escola Superior de Dança de Lisboa e é licenciada em dança pela mesma, concluindo o seu percurso académico com um estágio de ensino em dança clássica e contemporânea no Estúdio 13 (Ponta Delgada).",
@@ -176,10 +194,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "Carlos Lopes",
     photo: carloslopes,
-    position: "Professor de Trompete",
+    positions: ["Professor de Trompete", "Professor de Formação Musical", "Professor de Classes de Conjunto"],
     description: [
       "Carlos Lopes ou Caló como é conhecido pelos amigos, é perito em Curbes e Flips e não dispensa uma boa tarde de Skate com amigos pelos Skates Parkes Lisboetas. Cresceu e vive atualmente no Catujal.",
       "É antigo aluno da Classe de Trompetes do Conservatório Artallis e desde muito cedo que percebeu que o Trompete e a música o fazia feliz, desde os seus 10 aninhos que se entregou de corpo e alma a esta grande e amável família Artallis.",
@@ -188,10 +206,20 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 5,
+    id: 6,
+    name: "Carlota Ferreira",
+    photo: carlotaferreira,
+    positions: ["Professora de Violoncelo"],
+    description: [
+      "A Carlota respira música, tanto no palco como na sala de aula. Licenciada em Violoncelo e Mestre em Ensino da Música pela Universidade de Évora, traz consigo um percurso recheado de dedicação e paixão.", "Ao longo dos anos, tem dado vida ao seu violoncelo em inúmeros concertos de música de câmara e orquestra, bem como em espetáculos de teatro e teatro musical, onde a sua sensibilidade artística se faz sempre notar.", "Mas não é só no palco que brilha! O ensino ocupa um lugar muito especial no seu coração, e desde 2023 partilha o seu saber e carinho com os alunos do Conservatório Artallis, onde é professora de violoncelo.", "Com uma energia serena e um sorriso acolhedor, a Carlota é uma presença inspiradora que faz da música e do ensino uma verdadeira missão."
+
+    ],
+  },
+  {
+    id: 7,
     name: "Cátia Silva",
     photo: catiasilva,
-    position: "Professora de Saxofone",
+    positions: ["Professora de Saxofone",],
     description: [
       "Natural do Faial, esta orgulhosa açoriana, enveredou pelo caminho da música através da banda da sua terra.",
       "Iniciou os seus estudos formais no Conservatório da Horta e terminou-os a milhares de quilómetros de distância, em Portugal continental. Formada em Saxofone, também manifestou interesse em aprofundar conhecimento nas áreas do Fundraising, da Arte Terapia, da Inteligência Emocional e da Inovação Pedagógica.",
@@ -200,10 +228,22 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 6,
+    id: 8,
+    name: "Catarina Martins",
+    photo: catarinamartins,
+    positions: ["Professora de Saxofone", "Professora de Formação Musical", "Professora de Classes de Conjunto"],
+    description: [
+      "Natural do Faial, esta orgulhosa açoriana, enveredou pelo caminho da música através da banda da sua terra.",
+      "Iniciou os seus estudos formais no Conservatório da Horta e terminou-os a milhares de quilómetros de distância, em Portugal continental. Formada em Saxofone, também manifestou interesse em aprofundar conhecimento nas áreas do Fundraising, da Arte Terapia, da Inteligência Emocional e da Inovação Pedagógica.",
+      "A Cátia é a Fã número um da sua classe e adora criar felicidade à sua volta. Empática, motivada e alegre, é vista como um verdadeiro parque de diversões!",
+      "Enérgica, e com queda para a corrida, também gosta de cinema, mas as compras são a sua verdadeira paixão. As conquistas dos seus pequenotes orgulham-na imenso, e a sua boa energia contagia o ambiente à sua volta, espalhando alegria e comédia por onde passa.",
+    ],
+  },
+  {
+    id: 9,
     name: "Daniela Vincente",
     photo: danielavicente,
-    position: "Professora de Oboé",
+    positions: ["Professora de Oboé",],
     description: [
       "Daniela Vicente nasceu e cresceu na conhecida vila presépio em Alenquer. Começou o seu percurso musical na filarmónica da sua terra prosseguindo os seus estudos no Conservatório Nacional.",
       "Atualmente, é licenciada em Oboé e mestranda em Ensino da Música na Escola Superior de Música de Lisboa. Adora música, cinema e passear.",
@@ -212,10 +252,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 7,
+    id: 10,
     name: "David Ribeiro",
     photo: davidribeiro,
-    position: "Professor de Percussão",
+    positions: ["Professor de Percussão",],
     description: [
       "Alentejano, natural de Aljustrel. Iniciou os seus estudos musicais na S.M.I.R.A, ingressando posteriormente no Conservatório Regional do Baixo Alentejo. Atualmente é mestre em Ensino da Música, na vertente de Percussão.",
       "Para além da sua dedicação à música, especializou-se em várias áreas de estudo, desde o Fundraising à Arte Terapia, e da Inteligência Emocional à Inovação, Administração e Supervisão pedagógica.",
@@ -224,10 +264,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 8,
+    id: 11,
     name: "Eduardo Sousa",
     photo: eduardosousa,
-    position: "Professor de Trompa",
+    positions: ["Professor de Trompa", "Professor de Formação Musical", "Professor de Classes de Conjunto"],
     description: [
       "Natural de Lisboa, cresceu e vive na Bobadela. É antigo aluno da Classe de Trompas do Conservatório Artallis, e desde os seus 10 aninhos entregou-se de corpo e alma a esta bela família. Findado o seu percurso académico na nossa escola, lançou-se a novos desafios, e atualmente é licenciado em Trompa e mestrando em Ensino da Música.",
       "É orgulhoso de quem o rodeia e tenta não se arrepender de nada, pois acredita que tudo vale a pena viver!",
@@ -236,10 +276,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 9,
+    id: 12,
     name: "Elisabete Fernandes",
     photo: elisabetefernandes,
-    position: "Professora de Música",
+    positions: ["Professora de História da Cultura e das Artes", "Maestrina da Orkestra Philarmónical (Orquestra Sinfónica do Conservatório)"],
     description: [
       "Nascida e criada no Catujal, com muito orgulho, a nossa “Beta”, é a mãe do projeto CALL. Duas mãos não têm dedos suficientes para enumerar os cursos e formações da Elisabete.",
       "É licenciada em Ciências Musicais, mestre em Ensino da Música, mestre em Gestão Escolar, e por fim, mais de uma dezena de pós-graduações em áreas distintas, em Fundraising, Arte terapia, Inteligência Emocional, Inovação e Mudança Educativa, Supervisão pedagógica, Práticas Artísticas e Inclusão Social, Gestão de Organizações de Economia Social, Ação e Educação Social, Neurociência da Música, entre outas.",
@@ -250,10 +290,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 10,
+    id: 13,
     name: "Fausto Mirrado",
     photo: faustomirrado,
-    position: "Professor de Trompa",
+    positions: ["Professor de Trompa",],
     description: [
       "Nascido em Lisboa, cresceu e vive no Catujal. Iniciou os seus estudos musicais na escolinha que antecedeu o Conservatório Artallis aos 10 anos, ingressando posteriormente no Conservatório Nacional de Lisboa.",
       "Atualmente é mestre em Ensino da Música, na vertente de Trompa. Para além da sua dedicação à Trompa, especializou-se em várias áreas de estudo, desde o Fundraising à Arte Terapia, e da Inteligência Emocional à Inovação, Administração e Supervisão pedagógica.",
@@ -262,10 +302,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 11,
+    id: 14,
     name: "Fernando Dias",
     photo: fernandodias,
-    position: "Professor de Clarinete",
+    positions: ["Professor de Clarinete",],
     description: [
       "Nascido em Lisboa, cresceu e vive no Catujal. É o aluno mais antigo que o Conservatório Artallis formou integralmente.",
       "Atualmente, é licenciado em Clarinete e mestre na área do Ensino da Música, e também manifestou interesse em aprofundar conhecimento nas áreas do Fundraising, da Arte Terapia, da Inteligência Emocional e da Inovação Pedagógica.",
@@ -274,10 +314,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 12,
+    id: 15,
     name: "Filipe Lopes",
     photo: filipelopes,
-    position: "Professor de Trompa",
+    positions: ["Professor de Trompa", "Professor de Formação Musical", "Professor de Classes de Conjunto"],
     description: [
       "Filipe Lopes, cresceu e vive atualmente no Catujal. É antigo aluno da Classe de Trompas do Conservatório Artallis, e desde os seus 10 aninhos que se entregou de corpo e alma a esta amável família.",
       "Terminados os seus estudos na nossa escola, começou a trilhar novos caminhos, atualmente, é licenciado em Trompa pela Academia Nacional Superior de Orquestra e mestrando na área do Ensino da Música na Escola Superior de Música e Artes do Espetáculo.",
@@ -286,10 +326,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 13,
+    id: 16,
     name: "Francisco Carneiro",
     photo: franciscocarneiro,
-    position: "Professor de Guitarra",
+    positions: ["Professor de Guitarra",],
     description: [
       "Natural da bela cidade abraçada pelo Rio Sado, Setúbal, Francisco Canteiro cedo começou a demonstrar interesse pela música e pela Guitarra.",
       "Estudou Guitarra no Conservatório de Setúbal, licenciou-se na Escola de Artes da Universidade de Évora e é mestre em Ensino da Música pela Universidade de Aveiro.",
@@ -297,10 +337,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 14,
+    id: 17,
     name: "Francisco Joaquim",
     photo: franciscojoaquim,
-    position: "Professor de Música",
+    positions: ["Professor de Música", "Professor de Formação Musical", "Professor de Classes de Conjunto"],
     description: [
       "Francisco Joaquim, Xisco como é carinhosamente conhecido pelos amigos, cresceu e vive atualmente no Catujal. É antigo aluno da Classe de Guitarras do Conservatório Artallis, onde com 10 anos entrou para esta grande e alegre família.",
       "Terminados os seus estudos na nossa escola, começou a trilhar novos caminhos, atualmente, é licenciado em Composição pela Escola Superior de Música de Lisboa e mestrando na área do Ensino da Música.",
@@ -308,10 +348,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 15,
+    id: 18,
     name: "Helder Rodrigues",
     photo: helderrodrigues,
-    position: "Professor de Trombone",
+    positions: ["Professor de Trombone",],
     description: [
       "Vindo da vila de Cascais, é conhecido como, Diplomata, pela sua caraterística calma apaziguadora. Atualmente, é licenciado em Trombone e mestre na área do Ensino da Música, e também é uma referência e um especialista na Sacabuxa.",
       "É uma pessoa batalhadora, teimosa e resiliente. É apaixonado por museus, caminhadas, viagens, photografia e belas-artes, tendo estudado escultura.",
@@ -320,10 +360,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 16,
+    id: 19,
     name: "Hudson Ditherman",
     photo: hudsonditherman,
-    position: "Professor de Fagote",
+    positions: ["Professor de Fagote",],
     description: [
       "Natural do Brasil onde viveu até aos seus 12 anos, com 13 anos viajou diretamente para o Catujal onde realizou parte do seu percurso artístico, Hudson Ditherman cresceu e vive atualmente no Catujal.",
       "Estudou Fagote no Conservatório Nacional de Lisboa e posteriormente na Escola Profissional da Metropolitana. Licenciou-se em Fagote na Universidade Federal de Minas Gerais e fez Mestrado em Música, Cultura e Sociedade na mesma faculdade, após terminar os seus estudos, lançou-se em novos desafios e atualmente encontra-se a realizar o mestrado em Ensino do Teatro.",
@@ -332,10 +372,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 17,
+    id: 20,
     name: "Hugo Portela",
     photo: hugoportela,
-    position: "Professor de Trompa",
+    positions: ["Professor de Trompa", "Professor de Formação Musical", "Professor de Classes de Conjunto"],
     description: [
       "Nascido em Lisboa, cresceu e vive no Catujal. É antigo aluno da Classe de Trompas do Conservatório Artallis, e desde os seus 10 aninhos entregou-se de corpo e alma a esta bela família. Terminados os seus estudos na nossa escola, lançou-se a novos desafios, e atualmente, é licenciado em Trompa e mestrando na área do Ensino da Música.",
       "Adora tecnologia e viajar, descobrir novas localidades e dar uns valentes passeios. Apesar da sua aparente resmunguice, é um coração doce para os alunos e para quem ama.",
@@ -343,10 +383,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 18,
+    id: 21,
     name: "Isaac Fernandes",
     photo: isaacfernandes,
-    position: "Professor de Fagote",
+    positions: ["Professor de Fagote", "Professor de Classes de Conjunto"],
     description: [
       "Zac, como o chamam em tom de carinho, nascido e criado no Catujal, é um aventureiro e adora estar com os seus amigos e família. Iniciou os seus estudos musicais na escolinha que antecedeu o Conservatório Artallis aos 5 aninhos, ingressando posteriormente no Conservatório Nacional de Lisboa.",
       "Atualmente, é licenciado em Fagote e mestre na área do Ensino da Música, e também manifestou interesse em aprofundar conhecimento nas áreas do Fundraising, da Arte Terapia, da Inteligência Emocional e da Inovação Pedagógica.",
@@ -355,10 +395,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 19,
+    id: 22,
     name: "João Correia",
     photo: joaocorreia,
-    position: "Professor de Saxofone",
+    positions: ["Professor de Saxofone", "Professor de Formação Musical", "Professor de Classes de Conjunto"],
     description: [
       "Nascido em Lisboa, cresceu e vive na Bobadela. João Correia é antigo aluno da Classe de Saxofones do Conservatório Artallis, e desde os seus 10 aninhos entregou-se de corpo e alma a esta grande família.",
       "Terminados os seus estudos na nossa escola, lançou-se a novos desafios, e atualmente, é licenciado em Saxofone e mestrando na área do Ensino da Música.",
@@ -366,10 +406,19 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 20,
+    id: 23,
+    name: "João Pereira",
+    photo: joaopereira,
+    positions: ["Professor de Clarinete", "Professor de Formação Musical", "Professor de Classes de Conjunto"],
+    description: [
+      "Lisboeta de gema, nascido na emblemática Maternidade Alfredo da Costa, o nosso João cruzou-se com o clarinete em 2012, quando deu os primeiros passos no Conservatório d’Artes de Loures — hoje conhecido como Artallis (sim, o João já por cá andava antes de ser tendência!). ", "Licenciado pela Escola Superior de Música de Lisboa é daquelas almas inquietas que gosta de meter mãos a tudo. Entre projetos fora da caixa, engenhocas criativas e ideias malucas, o que o faz mesmo feliz é comer bem e rir até às lágrimas.", "Oficialmente entrou para a família Artallis em 2022, mas para nós já fazia parte muito antes — como se nunca tivesse saído."
+    ],
+  },
+  {
+    id: 24,
     name: "Juliana Marin",
     photo: julianamarin,
-    position: "Professora de Piano",
+    positions: ["Professora de Piano",],
     description: [
       "Juliana Marin, cresceu em São Paulo e Minas Gerais, atualmente vive em Lisboa. Para além do Piano, também aprendeu a tocar Flauta Transversal durante o seu percurso académico. A Arte faz parte do ser e dos gostos principais da Juliana, realizando diversos desenhos e pinturas em tecidos e quadros como hobby.",
       "É Licenciada na Universidade Federal de São João Del Rei em Ensino da Música. Juliana gosta de viajar e principalmente de experimentar a diferente gastronomia dos países que visita.",
@@ -377,20 +426,38 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 21,
+    id: 25,
+    name: "Laura Santos",
+    photo: laurasantos,
+    positions: ["Professora de Trombone", "Professora de Formação Musical", "Professora de Classes de Conjunto"],
+    description: [
+      "Natural da encantadora cidade das Caldas da Rainha, a Laura Santos deu os primeiros passos no mundo da música na Sociedade Filarmónica de Alvorninha. Desde cedo mostrou que o talento e a paixão vinham de berço, tendo depois continuado os seus estudos no Conservatório da sua terra natal e, mais tarde, na EPABI — Escola Profissional da Beira Interior.", "Licenciou-se na Escola Superior de Música de Lisboa e é mestre em Ensino da Música na vertente de Trombone e Classe de Conjunto pela ESART. Porque parar não faz parte do seu vocabulário, encontra-se atualmente a concluir o segundo mestrado na mesma instituição, agora em Formação Musical e Classe de Conjunto.", "Com um percurso sólido e uma energia contagiante, a Laura é daquelas pessoas que vive a música com o coração — e fá-lo com um entusiasmo que se sente em cada nota."
+    ],
+  },
+  {
+    id: 26,
     name: "Leonor Paiva",
     photo: leonorpaiva,
-    position: "Professora de Música",
+    positions: ["Professora de Música",],
     description: [
       "Leonor Palha é natural de Sintra e cedo começou a aprender música no Conservatório de Sintra. É licenciada pela Academia Nacional Superior de Orquestra e Mestranda na Escola de Artes da Universidade de Évora.",
       "É uma amante da música tradicional e do mundo. Nos tempos livres gosta de se dedicar aos seus projetos de cerâmica, não recusa um jantar de Sushi, uma das suas comidas favoritas, e adora uma boa tarde cinema com amigos.",
     ],
   },
   {
-    id: 22,
+    id: 27,
+    name: "Letícia Robalo",
+    photo: leticiarobalo,
+    positions: ["Professora de Contrabaixo",],
+    description: [
+      "A Letícia Frederico entrou no mundo da música em 2009, através da Orquestra Geração — e desde então nunca mais largou o contrabaixo nem o sonho de o levar mais longe. O seu percurso passou pela Escola Profissional Metropolitana, pelo Koninklijk Conservatorium Den Haag, nos Países Baixos, e pela Escola Superior de Música de Lisboa.", "Como instrumentista, já percorreu várias salas de concerto pela Europa fora, com atuações em Portugal, Países Baixos, Alemanha, Áustria e Itália — experiências que moldaram e enriqueceram o seu lado artístico.", "Em 2023, juntou-se à equipa pedagógica do Conservatório Artallis, onde partilha com os seus alunos não só a paixão pelo contrabaixo, mas também uma entrega criativa e inspiradora ao ensino.", "Com uma presença serena e uma dedicação contagiante, a Letícia é daquelas pessoas que faz da música uma ponte entre o palco e a sala de aula."
+    ],
+  },
+  {
+    id: 28,
     name: "Maria Santos",
     photo: mariasantos,
-    position: "Professora de Trombone",
+    positions: ["Professora de Trombone", "Professora de Formação Musical", "Professora de Classes de Conjunto"],
     description: [
       "Maria Santos, mais conhecida por Mary, é perita em partir cadeiras! Cresceu e vive atualmente no Catujal, perto de Lisboa. É antiga aluna da Classe de Trombones do Conservatório Artallis, e desde os seus 10 aninhos entregou-se de corpo e alma a esta grande família.",
       "Findado o seu percurso académico na nossa escola, lançou-se a novos desafios, e atualmente é licenciada em Trombone e mestranda em Ensino da Música.",
@@ -399,10 +466,19 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 23,
-    name: "Mariana V.",
+    id: 29,
+    name: "Maria Beira",
+    photo: mariabeira,
+    positions: ["Professora de Canto",],
+    description: [
+      "A Maria é natural de Setúbal e traz no coração o mar e a música.Desde cedo descobriu a sua paixão pelo piano, instrumento com o qual iniciou o seu percurso artístico — mas não ficou por aí! Com o tempo, deixou - se também encantar pelo canto, que hoje faz parte essencial da sua forma de viver e sentir a música.", "Licenciada em Canto e com Mestrado em Ensino de Piano, une na perfeição duas grandes paixões: a performance e a partilha de conhecimento.Cantar, tocar e mergulhar no mundo musical são, para a Maria, muito mais do que um ofício — são uma forma de estar na vida.", "Com uma sensibilidade única e uma entrega genuína, vive a música em todas as suas formas e inspira quem a rodeia a fazer o mesmo."
+    ],
+  },
+  {
+    id: 30,
+    name: "Mariana Vilafranca",
     photo: marianav,
-    position: "Professora de Violino",
+    positions: ["Professora de Violeta",],
     description: [
       "Natural de Almoçageme, perto de Sintra, Mariana Vilafranca cedo começou a estudar no Conservatório de Sintra prosseguindo depois os seus estudos na Escola Profissional da Metropolitana.",
       "Licenciada em Viola pela Academia Nacional Superior de Orquestra e mestre em ensino da música pela Universidade Católica Portuguesa no Porto.",
@@ -410,10 +486,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 24,
+    id: 31,
     name: "Miguel Fernandes",
     photo: miguelfernandes,
-    position: "Professor de Saxofone",
+    positions: ["Professor de Saxofone",],
     description: [
       "Natural de Paços da Serra, cresceu rodeado de música, pois desde cedo começou a aprender e a acompanhar a Filarmónica da sua terra. Após iniciar-se no saxofone e concluir o curso básico, entrou na Escola Profissional da Serra da Estrela onde terminou o secundário.",
       "A Serra já era pequena para conter tamanho som, era altura de traçar novos caminhos e objetivos, e assim foi, Miguel rumou até à capital para fazer a Licenciatura em Saxofone pela Escola Superior de Música de Lisboa, bem como o Mestrado em Ensino da Música.",
@@ -422,10 +498,19 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 25,
+    id: 32,
+    name: "Patrícia Lopes",
+    photo: patricialopes,
+    positions: ["Professora de Saxofone", "Professora de Formação Musical", "Professora de Classes de Conjunto"],
+    description: [
+      "Natural do Catujal, onde nasceu e cresceu, a nossa professora é da casa — no verdadeiro sentido da palavra! Iniciou o seu percurso musical como aluna da antiga Escola de Música local do Conservatório Artallis. Sim, já fazia parte da história antes mesmo da história começar! ", "Licenciada pela Escola Superior de Música de Lisboa, encontra-se atualmente a frequentar o mestrado na Escola Superior de Artes Aplicadas, em Castelo Branco. No Artallis, colabora desde 2019 em projetos como “Músicos de Palmo e Meio”, “Crescendo” e AEC’s, tendo iniciado oficialmente funções docentes em 2024. ", "Atualmente, partilha o seu conhecimento nas disciplinas de Classe de Conjunto, Formação Musical, Pré-Iniciação e Saxofone — sempre com dedicação, carinho e aquele brilho no olhar de quem ama o que faz.", "Nos tempos livres, encontra refúgio entre páginas de um bom livro ou com os pés na areia, a aproveitar o sol e o mar."
+    ],
+  },
+  {
+    id: 33,
     name: "Pedro Galego",
     photo: pedrogalego,
-    position: "Professor de Música",
+    positions: ["Professor de Música", "Professor de Classes de Conjunto"],
     description: [
       "Alentejano, natural de Elvas, reside atualmente no concelho de Loures. O Pedro Ingressou na Academia de Música de Elvas com 7 anos, começou a estudar piano aos 10 e concluiu o Curso Secundário em Música aos 18, nessa mesma instituição de ensino.",
       "Deu continuidade aos seus estudos na Licenciatura em Música, Variante de Direção Coral e Formação Musical. Desde então que leciona as disciplinas de Formação Musical e Classes de Conjunto na variante de Coro, no Conservatório d’ Artes de Loures, atualmente, Conservatório Artallis.",
@@ -434,10 +519,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 26,
+    id: 34,
     name: "Pedro Oliveira",
     photo: pedrooliveira,
-    position: "Professor de Tuba",
+    positions: ["Professor de Tuba",],
     description: [
       "O tubista, oriundo da aldeia da Carregueira, na Chamusca, é amante de alterações de carros, viagens e animais. Inicialmente os seus estudos musicais começaram com o Trompete mas foi na Tuba que encontrou a sua paixão.",
       "Estudou Tuba no Conservatório de Coimbra. Atualmente, é licenciado em Tuba e mestre em Ensino da Música pela Escola Superior de Artes Alplicadas em Castelo Branco.",
@@ -446,32 +531,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 27,
-    name: "Pedro Serra",
-    photo: pedroserra,
-    position: "Professor de Saxofone",
-    description: [
-      "Natural do Barreiro e cresceu em Alcochete, Pedro Serra, ou apenas Serra como é conhecido por todos os que lhe são mais próximos, começou a aprendizagem do saxofone cedo no Conservatório Nacional de Lisboa. Licenciou-se pela Escola Superior de Música de Lisboa e encontra-se a frequentar o mestrado em Performance na mesma Faculdade.",
-      "Gosta de passar a tarde com amigos a andar de skate de forma descontraída, não dispensa uma alheira frita com batatas, diz que é “o prato que lhe enche a alma e cria alegria”.",
-      "Há uns anos que descobriu o gosto pela arte da tatuagem, colecionando já algumas. ",
-    ],
-  },
-  {
-    id: 28,
-    name: "Raquel Gama",
-    photo: raquelgama,
-    position: "Professora de Flauta",
-    description: [
-      "Natural da cidade de Braga, ingressou com seis anos no Conservatório de Música Calouste Gulbenkian onde concluiu o curso básico e secundário de Flauta Transversal, o Curso Secundário de Canto e ainda conseguiu concluir o 3.º grau de piano.",
-      "A nossa Raquel é Multifacetada no âmbito musical. Licenciada em canto pela Escola de Artes da Faculdade de Évora e Mestrado em Ensino da Música pelo Instituto Piaget em Almada.",
-      "Dotada de uma gargalhada única, gosta de Legos, Cantar e um bom jantar fora na companhia de amigos.",
-    ],
-  },
-  {
-    id: 29,
+    id: 35,
     name: "Ricardo Carvalho",
     photo: ricardocarvalho,
-    position: "Professor de Guitarra",
+    positions: ["Professor de Guitarra", "Professor de Formação Musical", "Professor de Classes de Conjunto"],
     description: [
       "Natural de Torres Vedras, mas com raízes no Catujal. Ricardo Carvalho foi antigo aluno da Classe de Guitarras do Conservatório Artallis, onde descobriu o amor e alegria pela música.",
       "Após terminar os estudos na nossa escola, começou a sua busca por novos percursos, atualmente, é licenciado em Guitarra pela Escola Superior de Música de Lisboa  e mestrando na área do Ensino da Música.",
@@ -479,10 +542,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 30,
+    id: 36,
     name: "Ricardo Torres",
     photo: ricardotorres,
-    position: "Professor de Clarinete",
+    positions: ["Professor de Clarinete",],
     description: [
       "Natural da Figueira da Foz, o clarinetista chamado «Trombone de palhetas» é humilde, fofinho e trabalhador.  Atualmente, é licenciado em Clarinete e mestre em Ensino da Música.",
       "Tem bastante orgulho nos seus alunos e na sua família, e acredita que com trabalho e dedicação tudo se consegue.",
@@ -490,10 +553,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 31,
+    id: 37,
     name: "Rossana Silva",
     photo: rossanasilva,
-    position: "Professor de Flauta",
+    positions: ["Professora de Flauta",],
     description: [
       "Rossana, também conhecida como Rossi, é uma flautista que adora gomas! É natural da Venezuela, mas veio cedo para Espinho onde iniciou a aprendizagem da Flauta Transversal.",
       "Atualmente, é licenciada em Flauta Transversal, mestre em Ensino de Educação Musical e mestranda em Ensino da Música. Para além da Flauta, gosta muito de ler e passear, especialmente em cima de pedras escorregadias nos dias de maré baixa…",
@@ -501,10 +564,10 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 32,
+    id: 38,
     name: "Sara Antunes",
     photo: saraantunes,
-    position: "Professor de Trompete",
+    positions: ["Professora de Trompete", "Professora de Formação Musical", "Professora de Classes de Conjunto"],
     description: [
       "Sara Antunes, a nossa eterna Sarita, é perita em Rissóis e Sushi! Cresceu e vive atualmente em Sacavém. É antiga aluna da Classe de Trompetes do Conservatório Artallis e desde tenra idade que percebeu que a música era muito importante na sua vida, desde os seus 10 aninhos que se entregou de corpo e alma a esta grande e amável família Artallis.",
       "Findado o seu percurso académico na nossa escola, lançou-se a novos desafios, e atualmente é licenciada em Trompete pela Academia Nacional Superior  de Orquestra e mestranda em Ensino da Música na Escola Superior de Música e Artes do Espetáculo.",
@@ -512,16 +575,51 @@ export const equipaArtallis = [
     ],
   },
   {
-    id: 33,
+    id: 39,
+    name: "Tiago Loureiro",
+    photo: tiagoloureiro,
+    positions: ["Professor de Percussão",],
+    description: [
+      "Lisboeta de gema, o Tiago começou a percurtir em 2002 e nunca mais parou! Passou por escolas como o Conservatório D.Dinis, Metropolitana e a Escola Superior de Música de Lisboa onde teve a possibilidade de trabalhar com os melhores profissionais na área da Percussão.",
+      "Já tocou em palcos por todo o país e além - fronteiras, em orquestras, ensembles, bandas e até em recitais a solo.Se há ritmo, o Tiago está lá.",
+      "De 2012 a 2019 foi percussionista na Banda Sinfónica do Exército e hoje reparte- se entre aulas, projetos musicais e composição.",
+      "É professor de percussão no Artallis desde 2023.",
+    ],
+  },
+  {
+    id: 40,
     name: "Walace Durão",
     photo: walacedurao,
-    position: "Professor de Trompa",
+    positions: ["Professor de Trompa", "Professor de Formação Musical", "Professor de Classes de Conjunto", "Professor de Teatro"],
     description: [
       "Descendente de índios, tem tantas alcunhas, tais como, Energia e Alegria! Natural do Brasil, vive atualmente no Forte da Casa. É antigo aluno da Classe de Trompas do Conservatório Artallis, e desde os seus 11 aninhos entregou-se de corpo e alma a esta amável família.",
       "Terminados os seus estudos na nossa escola, lançou-se a novos desafios, e atualmente, é licenciado em Trompa e mestrando na área do Ensino da Música. Resiliente e sempre pronto para uma boa gargalhada, almeja tornar-se um artista mais completo, somando à música, o teatro e a dança.",
       "Gosta de passear e de ir ao cinema, além de adorar estudar trompa e de ouvir música. O leão é o animal que o define, não apenas pelos seus belos caracóis, mas também pela sua coragem e bravura com que encarou toda a sua vida.",
     ],
   },
+  // {
+  //   id: 27,
+  //   name: "Pedro Serra",
+  //   photo: pedroserra,
+  //   positions: ["Professor de Saxofone",],
+  //   description: [
+  //     "Natural do Barreiro e cresceu em Alcochete, Pedro Serra, ou apenas Serra como é conhecido por todos os que lhe são mais próximos, começou a aprendizagem do saxofone cedo no Conservatório Nacional de Lisboa. Licenciou-se pela Escola Superior de Música de Lisboa e encontra-se a frequentar o mestrado em Performance na mesma Faculdade.",
+  //     "Gosta de passar a tarde com amigos a andar de skate de forma descontraída, não dispensa uma alheira frita com batatas, diz que é “o prato que lhe enche a alma e cria alegria”.",
+  //     "Há uns anos que descobriu o gosto pela arte da tatuagem, colecionando já algumas. ",
+  //   ],
+  // },
+  // {
+  //   id: 28,
+  //   name: "Raquel Gama",
+  //   photo: raquelgama,
+  //   positions: ["Professora de Flauta",],
+  //   description: [
+  //     "Natural da cidade de Braga, ingressou com seis anos no Conservatório de Música Calouste Gulbenkian onde concluiu o curso básico e secundário de Flauta Transversal, o Curso Secundário de Canto e ainda conseguiu concluir o 3.º grau de piano.",
+  //     "A nossa Raquel é Multifacetada no âmbito musical. Licenciada em canto pela Escola de Artes da Faculdade de Évora e Mestrado em Ensino da Música pelo Instituto Piaget em Almada.",
+  //     "Dotada de uma gargalhada única, gosta de Legos, Cantar e um bom jantar fora na companhia de amigos.",
+  //   ],
+  // },
+
 ];
 
 //  protocol assets
@@ -1083,51 +1181,39 @@ export const galleryslide9 = './images/gallery/galleryslide1.webp'
 export const gallerySlideImages = [
   {
     id: 1,
-    img: learnMusic,
-  },
-  {
-    id: 2,
-    img: learnTheatre,
-  },
-  {
-    id: 3,
-    img: learnDance,
-  },
-  {
-    id: 4,
-    img: galleryslide1,
-  },
-  {
-    id: 5,
-    img: galleryslide2,
-  },
-  {
-    id: 6,
-    img: galleryslide3,
-  },
-  {
-    id: 7,
-    img: galleryslide4,
-  },
-  {
-    id: 8,
-    img: galleryslide5,
-  },
-  {
-    id: 9,
-    img: galleryslide6,
-  },
-  {
-    id: 10,
     img: galleryslide7,
   },
   {
-    id: 11,
+    id: 2,
     img: galleryslide8,
   },
   {
-    id: 12,
+    id: 3,
     img: galleryslide9,
+  },
+  {
+    id: 4,
+    img: galleryslide4,
+  },
+  {
+    id: 5,
+    img: galleryslide5,
+  },
+  {
+    id: 6,
+    img: galleryslide6,
+  },
+  {
+    id: 7,
+    img: galleryslide3,
+  },
+  {
+    id: 8,
+    img: galleryslide2,
+  },
+  {
+    id: 9,
+    img: galleryslide1,
   },
 ];
 
@@ -1144,7 +1230,8 @@ export const policies = [
       },
       {
         id: 2,
-        point: "Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.",},
+        point: "Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.",
+      },
     ],
   }
 ]

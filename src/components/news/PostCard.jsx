@@ -28,7 +28,7 @@ const PostCard = ({ id, title, slug, poster, publishedAt }) => {
                     <div className="w-full">
                         <img
                             src={imageUrl}
-                            className="h-full max-h-[250px] min-h-[250px] rounded-md object-cover w-full max-w-[384px]"
+                            className="h-full max-h-[250px] min-h-[250px] rounded-md object-cover w-full max-w-[384px] border border-artLightBlue-50"
                             width={384}
                             height={250}
                             alt={title}

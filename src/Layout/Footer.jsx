@@ -18,7 +18,7 @@ const Footer = () => {
           <div className='flex items-center gap-2'>
             <img src={mailFooter} alt="Email" className='w-full max-w-4' /> <a className='cursor-pointer no-underline text-white text-sm font-barlow font-medium' href="mailto:geral@conservatoriodartesdeloures.net">geral@conservatoriodartesdeloures.net</a>
           </div>
-          <Link to="/pol-cokkies">
+          <Link to="/privacidade">
             <img src={cookies} alt="Política de Cookies"
               className='absolute xl:bottom-24 xl:right-[-75px] lg:bottom-32 right-[-20px]  bottom-40 w-full max-w-16 cursor-pointer' />
           </Link>

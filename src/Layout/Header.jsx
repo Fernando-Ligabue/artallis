@@ -8,8 +8,10 @@ const Header = () => {
 
     const textColor = location.pathname === "/" ? "white" : "black";
 
+    const isHome = location.pathname === "/" ? "z-50" : "";
+
     return (
-        <header className="absolute top-0 left-0 w-full flex justify-between items-center p-2 z-50" style={{ color: textColor }}>
+        <header className={`absolute top-0 left-0 w-full flex justify-between items-center p-2 ${isHome}`} style={{ color: textColor }}>
             <div className="main-container flex justify-between items-center gap-2 py-1 px-4 lg:px-0">
                 <div className="w-44 p-1">
                     <LogoHeader/>
